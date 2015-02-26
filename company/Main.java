@@ -13,6 +13,7 @@ public class Main {
 
         Book b = new Book("Orwell", "1984", 9.99);
 
+        Bookstore bookstore = new Bookstore();
 
     }
 }
