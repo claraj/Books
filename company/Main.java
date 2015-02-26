@@ -23,7 +23,10 @@ public class Main {
         Book b2 = new Book("King Lear", "Shakespeare", 6.99);
         bookstore.addBook(b2);
 
+        Book b3 = new Book("Treasure Island", "Stevenson", 9.44);
+
         bookstore.printAllBooks();
+
 
 
     }
