@@ -15,6 +15,9 @@ public class Main {
 
         Bookstore bookstore = new Bookstore();
 
+        bookstore.addBook(b);
+
+
     }
 }
 
