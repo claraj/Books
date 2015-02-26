@@ -1,5 +1,7 @@
 package company;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,5 +27,12 @@ class Book {
         this.author = a;
         this.title = t;
         this.price = p;
+    }
+}
+
+class Bookstore {
+    ArrayList<Book> allBooks;
+    Bookstore() {
+        allBooks = new ArrayList<Book>();
     }
 }
