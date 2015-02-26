@@ -18,6 +18,11 @@ public class Main {
         bookstore.addBook(b);
 
 
+        //Some code that is being modified at the same time as root
+
+        Book b2 = new Book("King Lear", "Shakespeare", 6.99);
+        bookstore.addBook(b2);
+
     }
 }
 
