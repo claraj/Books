@@ -36,4 +36,9 @@ class Bookstore {
     Bookstore() {
         allBooks = new ArrayList<Book>();
     }
+
+    public void addBook(Book b){
+        allBooks.add(b);
+    }
+
 }
