@@ -32,6 +32,11 @@ class Book {
         this.title = t;
         this.price = p;
     }
+
+    //Some code being modified at the same time as clara
+    public String toString(){
+        return author + " " + title + " " + price;
+    }
 }
 
 class Bookstore {
@@ -42,6 +47,14 @@ class Bookstore {
 
     public void addBook(Book b){
         allBooks.add(b);
+    }
+
+    //Some code being modified at the same time as clara
+
+    public void printAllBooks(){
+        for (Book b : allBooks) {
+            System.out.println(b);
+        }
     }
 
 }
