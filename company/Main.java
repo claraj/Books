@@ -51,6 +51,7 @@ class Bookstore {
     }
 
     public void addBook(Book b){
+        System.out.println("Added " + b);
         allBooks.add(b);
     }
 
@@ -61,5 +62,8 @@ class Bookstore {
             System.out.println(b);
         }
     }
+
+
+
 
 }
