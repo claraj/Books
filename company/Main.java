@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Kali Linux team person's work");
         System.out.println("Mac team person's work");
 
         System.out.println("Welcome to the bookstore program");
