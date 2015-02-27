@@ -67,6 +67,7 @@ class Bookstore {
     //Some code being modified at the same time as clara
 
     public void printAllBooks(){
+        System.out.println("All books in Bookstore:");
         for (Book b : allBooks) {
             System.out.println(b);
         }
